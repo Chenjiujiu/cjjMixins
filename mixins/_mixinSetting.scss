@@ -4,7 +4,7 @@ $version : 1.0.0;
 //全局单位;
 $unit	:	px;
 //是否兼容IE678;
-$ieLow	:	false;
+$ieLow	:	true;
 //css3前缀开关;
 $browsers	:	webkit moz ms o; //浏览器集合;
 $prefixOpen	:	true !default;  //开启前缀;
