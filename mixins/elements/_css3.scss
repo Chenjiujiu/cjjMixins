@@ -80,11 +80,11 @@
 	}
 }
 //去除阴影;
-@mixin no-box-s($noshadow:none) {
+@mixin box-s-no($noshadow:none) {
 	@include c3Pre(box-shadow, $noshadow);
 }
 //去除文字阴影;
-@mixin no-txt-s($noshadow:none) {
+@mixin txt-s-no($noshadow:none) {
 	@include c3Pre(text-shadow, $noshadow);
 }
 //是否允许用户选中文本;
@@ -152,7 +152,7 @@
 	}
 
 }
-//滤镜: 将彩色照片显示为黑白照片;
+//滤镜:
 @mixin grayscale( $args:100% ) {
 	@include c3Pre(filter, grayscale($args));
 }

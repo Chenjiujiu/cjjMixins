@@ -19,7 +19,7 @@
 }
 
 //超出隐藏;
-@mixin over{overflow:hidden; }
+@mixin ofh{overflow:hidden; }
 //超出显示;
 @mixin ofv{overflow:visible !important;}
 
@@ -36,7 +36,7 @@
 	@include cu(default);
 }
 //隐藏
-@mixin cun() {
+@mixin cun {
 	cursor: none !important;
 }
 //透明度;

@@ -16,7 +16,7 @@
 }
 
 //清除浮动;
-@mixin clearfix(){
+@mixin clearfix{
 	*zoom:1;
 	&:after{
 		content: "";
