@@ -1,0 +1,9 @@
+@charset "UTF-8";
+//全局设置 @minxin;
+@import "./mixins/_mixinSetting.scss";
+
+//部件单元 @minxin;
+@import "./mixins/_mixinElements.scss";
+
+//常用模板 @minxin;
+@import "./mixins/_mixinModules.scss";
