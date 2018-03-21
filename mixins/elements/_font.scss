@@ -44,12 +44,12 @@
 	@include fs( $value );
 }
 //去掉文字加粗;
-@mixin no-fw{
+@mixin fw-no{
 	font-weight: normal;
 }
 
 //去掉文字风格;
-@mixin no-fs{
+@mixin fs-no{
 	@include fs( normal );
 }
 
@@ -59,7 +59,7 @@
 }
 
 // 正常字体样式;
-@mixin f-normal() {
+@mixin f-no() {
 	font-weight: normal;
 	font-style: normal;
 }
