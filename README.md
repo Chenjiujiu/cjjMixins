@@ -2,7 +2,7 @@
  * @描述: 一个scss的函数库
  * @作者: chenjiujiu
  * @创建日期: 2018/3/21
-##全局参数设置
+##全局参数设置 <br/>
 $unit   ---->   全局单位   ---->px/em/rem;  <br/>
 $ieLow   ---->   IE678兼容开关   ---->true/false;    <br/>
 $browsers   ---->   浏览器前缀集合   ---->webkit moz ms o;   <br/>
@@ -11,12 +11,13 @@ $prefixW   ---->   谷歌前缀   ---->true/false;  <br/>
 $prefixM   ---->   火狐前缀   ---->true/false;  <br/>
 $prefixI   ---->   IE前缀   ---->true/false;  <br/>
 $prefixO   ---->   opera前缀   ---->true/false;  <br/>
-##函数
+##函数 <br/>
 allBrowser ()   ---->  判断是否需要全兼容  ---->  返回true/false; <br/>
 isNum($num)   ---->   判断num是否为数值型   ---->返回true/false;  <br/>
 testUnit ($args)   ---->   检查参数是否带有单位   ---->返回添加单位后的参数;  <br/>
 addUnit ($args)   ---->   给参数添加单位   ---->返回添加单位后的参数;  <br/>
-##字体
+
+##字体 <br/>
 f ()   ---->   字体综合属性    ----> 1~n个值;  <br/>
 fz ()---->   字体大小  ----> 数值;  <br/>
 ff ()---->   字体样式  ----> 字体样式;  <br/>
