@@ -80,19 +80,19 @@
 	}
 }
 //去除阴影;
-@mixin box-s-no($noshadow:none) {
-	@include c3Pre(box-shadow, $noshadow);
+@mixin box-s-no {
+	@include c3Pre(box-shadow, none);
 }
 //去除文字阴影;
-@mixin txt-s-no($noshadow:none) {
-	@include c3Pre(text-shadow, $noshadow);
+@mixin txt-s-no{
+	@include c3Pre(text-shadow, none);
 }
 //是否允许用户选中文本;
 @mixin usr-s($arg: text) {
 	@include c3Pre(user-select, $arg);
 }
 //禁止文本被选择;
-@mixin user-s-no() {
+@mixin user-s-no {
 	@include usr-s(none);
 }
 //transform;
@@ -136,8 +136,8 @@
 // 2. 使链接显示为默认光标(cursor:default)
 // 3. 阻止触发hover和active状态
 // 4. 阻止JavaScript点击事件的触发
-@mixin pe( $arg:none ) {
-	pointer-events: $arg;
+@mixin pe{
+	pointer-events: none;
 }
 //filter;
 @mixin filter( $arg ) {

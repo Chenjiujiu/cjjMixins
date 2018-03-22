@@ -42,9 +42,9 @@
 		@include h($height);
 }
 
-//设置pc居中容器;
+//设置居中版心;
 @mixin auto-w( $width:1000 ) {
 	@include w($width);
-	@include mlr(auto);
+	@include mglr(auto);
 }
 

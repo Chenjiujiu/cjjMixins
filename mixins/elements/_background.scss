@@ -30,7 +30,7 @@
 	background-origin:$value;
 }
 
-//设置background-position;
+//背景定位;
 @mixin bgp( $value:center center ){
 	background-position:$value;
 }

@@ -40,7 +40,7 @@
 }
 
 //隐藏文字;
-@mixin thi($num:101%){
+@mixin thi($num:110%){
 	@include tin($num);
 	white-space: nowrap;
 	overflow: hidden;

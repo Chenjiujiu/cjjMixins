@@ -1,7 +1,5 @@
 @charset "UTF-8";
 // 定位的混合宏;
-//定位
-
 //遍历定位属性:top\right\bottom\left\z-index\width\height;
 @mixin position_each( $args ) {
 	$data: (t:top, r:right, b:bottom, l:left, z:z-index, w:width, h:height);

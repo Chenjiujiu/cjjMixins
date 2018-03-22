@@ -32,7 +32,7 @@
 }
 
 //宽/行高;
-@mixin wl($width, $line-height:$height) {
+@mixin wl($width, $line-height) {
 	@include w($width);
 	@include lh($line-height);
 }
@@ -55,7 +55,7 @@
 	@include c( $color);
 }
 
-//设置family & font-size & line-height & color;
+//字体大小/字体大小/行高/颜色
 @mixin ffflc( $family, $font, $line, $color) {
 	@include ff( $family);
 	@include fz( $font);
